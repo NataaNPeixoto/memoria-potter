@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Alterei o atributo lang para pt-br, já que o seu conteúdo está em português -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Adicionei um favicon para o seu site usando uma imagem de uma carta -->
+    <link rel="icon" href="../images/card.png" type="image/png">
+    <!-- Adicionei um comentário para indicar que os arquivos CSS estão sendo importados -->
+    <!-- Importei primeiro o arquivo game.css, já que ele depende do reset.css -->
+    <link rel="stylesheet" href="../CSS/game.css">
+    <link rel="stylesheet" href="../CSS/reset.css">
+
+    <!-- Adicionei um comentário para indicar que o arquivo JavaScript está sendo importado -->
+    <script defer src="../js/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/localforage/1.10.0/localforage.min.js"></script>
+    
+    <title>Memória Potter</title>
+</head>
+<body>
+
+    <main>
+        <header>
+        <!-- Adicionei um elemento h1 para o título do jogo -->
+        <h1>Memória Potter</h1>
+        <!-- Adicionei um elemento p para mostrar o nome e o tempo do jogador -->
+        <p>Jogador: <span class="Jogador"></span></p>
+        <p>Tempo: <span class="Tempo">00</span></p>
+        </header>
+
+        <!-- Adicionei um elemento section para agrupar as cartas do jogo -->
+        <section class="grid"></section>
+    </main>
+
+    <!-- Adicionei um elemento footer para colocar a escrita Natan Games na parte de baixo da tela -->
+    <footer class="footer">
+      <!-- Adicionei um elemento span para estilizar a escrita Natan Games -->
+      <span class="footer__text">Natan Games</span>
+    </footer>
+
+</body>
+
+</html>
